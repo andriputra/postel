@@ -196,6 +196,20 @@
   font-weight: 600;
   font-size: 14px;
 }
+ul.dropdown-menu.mega-dropdown-menu.sor{
+  width: 33%;
+  right: 186px;
+}
+ul.dropdown-menu.mega-dropdown-menu.spektrum{
+  width: 75%;
+  right: 246px;
+}
+ul.dropdown-menu.mega-dropdown-menu.pengujian{
+  width: 45%;
+}
+ul.dropdown-menu.mega-dropdown-menu.sor li ul li:nth-child(5){
+  margin-bottom: 10px;
+}
 .carousel-control {
   width: 30px;
   height: 30px;
