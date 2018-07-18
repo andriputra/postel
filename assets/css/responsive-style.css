@@ -1,5 +1,8 @@
 /* Small Phone Style */
 @media (min-width: 320px) and (max-width: 767px){
+  .top-nav{
+    display: none;
+  }
   .top-nav ul.top-nav-list{
     padding-right: 0px;
     text-align: center;
@@ -31,6 +34,9 @@
   .top-nav ul.top-nav-list ul.list-unstyled li:not(.init).eng{
     z-index: 9999;
   }
+  .navigation {
+    height: 70px;
+  }
   .navigation .navbar-inverse .navbar-brand{
       width: 80%;
   }
@@ -41,10 +47,11 @@
     z-index: 999;
   }
   .navigation .navbar-inverse .navbar-brand img{
-    width: 90%;
+    width: 95%;
   }
   .navigation .navbar-inverse .navbar-toggle{
     border-radius: 0px;
+    margin-top: 4px;
   }
   .navigation .navbar-inverse .navbar-toggle .icon-bar{
     background-color: #797979;
@@ -61,7 +68,7 @@
   }
   .navigation .navbar-inverse .navbar-collapse,
   .navigation .navbar-inverse .navbar-form{
-    margin-top: 14px;
+    margin-top: 5px;
     border-color: #03418b;
     -webkit-box-shadow: 0px 5px 12px 0px rgba(50, 50, 50, 0.41);
     -moz-box-shadow:    0px 5px 12px 0px rgba(50, 50, 50, 0.41);
@@ -81,6 +88,20 @@
   }
   .mega-dropdown-menu > li > ul > li > a{
     font-size: 12px;
+  }
+  ul.dropdown-menu.mega-dropdown-menu.sor{
+    width: 100%;
+    right: 0px;
+  }
+  ul.dropdown-menu.mega-dropdown-menu.spektrum{
+    width: 100%;
+    right: 0px;
+  }
+  ul.dropdown-menu.mega-dropdown-menu.pengujian{
+    width: 100%;
+  }
+  ul.dropdown-menu.mega-dropdown-menu.sor li ul li:nth-child(5){
+    margin-bottom: 0px;
   }
 
   /* Content Area */
@@ -221,6 +242,16 @@
   .top-nav ul.top-nav-list {
     padding-left: 0px;
     padding-right: 3%;
+  }
+  ul.dropdown-menu.mega-dropdown-menu.spektrum {
+    width: 100%;
+    right: 0px;
+  }
+  ul.dropdown-menu.mega-dropdown-menu.pengujian {
+    width: 72%;
+  }
+  ul.dropdown-menu.mega-dropdown-menu.sor {
+    width: 56%;
   }
   #Home_Slider.slider .item .text-slider{
     top: 6%;
